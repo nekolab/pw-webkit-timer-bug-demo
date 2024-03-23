@@ -214,17 +214,24 @@
     focus-trap-vue "^4.0.2"
     lodash.clonedeep "^4.5.0"
 
-"@kong-ui-public/copy-uuid@^2.0.12", "@kong-ui-public/copy-uuid@^2.0.8", "@kong-ui-public/copy-uuid@^2.0.9":
+"@kong-ui-public/copy-uuid@^2.0.8":
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/@kong-ui-public/copy-uuid/-/copy-uuid-2.0.12.tgz#db96d8f79bf2cdc5071a2cd21c525cd6bec81c44"
   integrity sha512-J1887W5dN+4a0mK0qAAqVsD1g3nri/d/RmiKWneZnpYX2rFKQWTrRuwU0wNuvNB7qHMKCL2DITzDdnCAhpenCw==
   dependencies:
     "@kong/icons" "^1.8.3"
 
-"@kong-ui-public/core@^1.4.10", "@kong-ui-public/core@^1.4.11":
+"@kong-ui-public/core@^1.4.10":
   version "1.4.11"
   resolved "https://registry.yarnpkg.com/@kong-ui-public/core/-/core-1.4.11.tgz#5c945e6ac7b49fa39852129fbb1d7b4bbff6dece"
   integrity sha512-6xJikUM88bQOifK3dvD80KdFQkKAGZhEmg7It9Vkjd6jPCKEPwpRQFzvDaSKNYIVPknEs2Ibz2eBgyGrAyQ/FA==
+  dependencies:
+    date-fns "^2.30.0"
+
+"@kong-ui-public/core@^1.5.7":
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@kong-ui-public/core/-/core-1.5.7.tgz#fea136e85b6e62fbd7c9104705c03dde14d54549"
+  integrity sha512-1BfZERICjiZNMEuDICBrQxbcggaINVLaE759hsofeGu21ujz9/j341Ai0D6e89J7u4fjKZ9P8WsIVbDro/b5wQ==
   dependencies:
     date-fns "^2.30.0"
 
@@ -238,23 +245,21 @@
     "@kong/icons" "^1.8.2"
     compare-versions "^6.1.0"
 
-"@kong-ui-public/entities-shared@^2.1.2":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@kong-ui-public/entities-shared/-/entities-shared-2.1.5.tgz#a76dd6f918d810cd03b580743dd7a58efe8f7b97"
-  integrity sha512-cGJKKLbdLGHQo8UDjDwf0MJKKGnXy3efIUqi+/5aWthtGonmRVCYtzmF6Xdhedxax5k+0d1SQerfzJOL8zAQNw==
+"@kong-ui-public/entities-shared@^2.12.4":
+  version "2.12.4"
+  resolved "https://registry.yarnpkg.com/@kong-ui-public/entities-shared/-/entities-shared-2.12.4.tgz#7568befb37022f855c2cabc23372ed01b5a13c34"
+  integrity sha512-wqAuWycYia2zCj7jyOnvxNQY/jvqo1n/i5+V6r733h0fiwx0CvI1rmv/fvogkibs4mUDPrZRaR3++JvI8UHtNQ==
   dependencies:
-    "@kong-ui-public/copy-uuid" "^2.0.12"
-    "@kong-ui-public/core" "^1.4.11"
-    "@kong/icons" "^1.8.3"
+    "@kong-ui-public/core" "^1.5.7"
+    "@kong/icons" "^1.8.14"
     compare-versions "^6.1.0"
 
-"@kong-ui-public/entities-snis@2.1.7-pr.984.be204092.0":
-  version "2.1.7-pr.984.be204092.0"
-  resolved "https://registry.yarnpkg.com/@kong-ui-public/entities-snis/-/entities-snis-2.1.7-pr.984.be204092.0.tgz#7f557bd0c59291ff33566d89c731c75c549f8636"
-  integrity sha512-ZppMFs7CWBtbz1QEwf2nMpErrKmkL79jRFZLTVoFDS3yPHTYkakfmnsYz7KDDZAbeEdd+R83c/YNTterQL2vng==
+"@kong-ui-public/entities-snis@pr-984":
+  version "2.5.6-pr.984.d2a6e5e2.0"
+  resolved "https://registry.yarnpkg.com/@kong-ui-public/entities-snis/-/entities-snis-2.5.6-pr.984.d2a6e5e2.0.tgz#a4024658635d395d69ead7469512273037e4468c"
+  integrity sha512-rDiNLlIwuSSkYLgxacMYcU5VhkJIrQmYcTer/3u4L0BWGF4QlhtX2i4jCZGMkpTGvtb0tG5y5/phnswDnVYA8w==
   dependencies:
-    "@kong-ui-public/copy-uuid" "^2.0.9"
-    "@kong-ui-public/entities-shared" "^2.1.2"
+    "@kong-ui-public/entities-shared" "^2.12.4"
 
 "@kong-ui-public/i18n@^2.0.0":
   version "2.0.0"
@@ -270,27 +275,32 @@
   resolved "https://registry.yarnpkg.com/@kong/icons/-/icons-1.8.0.tgz#3fb6423fec31be4cc27af94f2912f52aee4f9077"
   integrity sha512-ynO3GXaJTh4yoJMZ7XeTbA+ZHvlrteleI+rWNGUbEr726Tw/jgHLdT6wZ1YWR65cA38FN0Q96vEX/7+6ExwaHA==
 
+"@kong/icons@^1.8.14":
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/@kong/icons/-/icons-1.8.14.tgz#3219563df669b8bb3e260df12ac211a5072938e6"
+  integrity sha512-nJUTtLpqelKCTY8lS8VByWaHYUq1CuB5cBUX/q2FEDu5o6IKH/B7fEDQpb/pB1lLRYTqZXneHR/lGYjxy4u8eQ==
+
 "@kong/icons@^1.8.2", "@kong/icons@^1.8.3":
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/@kong/icons/-/icons-1.8.3.tgz#ae82ace540bcd3fd1c1c092533099e7721ea55ee"
   integrity sha512-9xXD8au1ty9Osi4qhy3OXthNTa8rAnVTIXryGJuA41/T0o4YnOSXMA7oj0F/kX6tEVeEi6TWbqwzGrj881ZFvA==
 
-"@kong/kongponents@9.0.0-pr.1804.26905eed.0":
-  version "9.0.0-pr.1804.26905eed.0"
-  resolved "https://registry.yarnpkg.com/@kong/kongponents/-/kongponents-9.0.0-pr.1804.26905eed.0.tgz#cd64aac67706cd3d9781a8dc78ea182d1235f36f"
-  integrity sha512-p4WvO5E9B2rXg5xD5TfAmqoi6Zq2B8Om7hS6q1XX5gxhvhmxE9HthJEhxXQExTjmsYE/4nww4716ZZ+KLbiYSw==
+"@kong/kongponents@9.0.0-alpha.117":
+  version "9.0.0-alpha.117"
+  resolved "https://registry.yarnpkg.com/@kong/kongponents/-/kongponents-9.0.0-alpha.117.tgz#6d67a0c2c8cf916d7265cc7919690acf5478f7e5"
+  integrity sha512-TCDmFvREMtOYpYO7MecgDdRhGrqqWMtQXraKm6v0TUkR6ikR26EQZtghqS+OiDnEldJV9FFOty8gunbbFInJmg==
   dependencies:
-    "@kong/icons" "^1.8.2"
+    "@kong/icons" "^1.8.14"
     "@popperjs/core" "^2.11.8"
     date-fns "^2.30.0"
-    date-fns-tz "^2.0.0"
+    date-fns-tz "^2.0.1"
     focus-trap "^7.5.4"
     focus-trap-vue "^4.0.3"
     popper.js "^1.16.1"
-    sortablejs "^1.15.0"
+    sortablejs "^1.15.2"
     swrv "^1.0.4"
     uuid "^9.0.1"
-    v-calendar "^3.0.3"
+    v-calendar "^3.1.2"
     vue-draggable-next "^2.2.1"
 
 "@playwright/test@^1.40.1":
@@ -639,6 +649,11 @@ date-fns-tz@^2.0.0:
   resolved "https://registry.yarnpkg.com/date-fns-tz/-/date-fns-tz-2.0.0.tgz#1b14c386cb8bc16fc56fe333d4fc34ae1d1099d5"
   integrity sha512-OAtcLdB9vxSXTWHdT8b398ARImVwQMyjfYGkKD2zaGpHseG2UPHbHjXELReErZFxWdSLph3c2zOaaTyHfOhERQ==
 
+date-fns-tz@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/date-fns-tz/-/date-fns-tz-2.0.1.tgz#0a9b2099031c0d74120b45de9fd23192e48ea495"
+  integrity sha512-fJCG3Pwx8HUoLhkepdsP7Z5RsucUi+ZBOxyM5d0ZZ6c4SdYustq0VMmOu6Wf7bli+yS/Jwp91TOCqn9jMcVrUA==
+
 date-fns@^2.16.1, date-fns@^2.30.0:
   version "2.30.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
@@ -947,10 +962,10 @@ semver@^7.5.4:
   dependencies:
     lru-cache "^6.0.0"
 
-sortablejs@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.0.tgz#53230b8aa3502bb77a29e2005808ffdb4a5f7e2a"
-  integrity sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==
+sortablejs@^1.15.2:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.2.tgz#4e9f7bda4718bd1838add9f1866ec77169149809"
+  integrity sha512-FJF5jgdfvoKn1MAKSdGs33bIqLi3LmsgVTliuX6iITj834F+JRQZN90Z93yql8h0K2t0RwDPBmxwlbZfDcxNZA==
 
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
@@ -994,7 +1009,7 @@ uuid@^9.0.1:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
   integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
-v-calendar@^3.0.3:
+v-calendar@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-3.1.2.tgz#fb47320a5469973454f030d850134eebcd2307eb"
   integrity sha512-QDWrnp4PWCpzUblctgo4T558PrHgHzDtQnTeUNzKxfNf29FkCeFpwGd9bKjAqktaa2aJLcyRl45T5ln1ku34kg==
